@@ -54,7 +54,7 @@ ROOT_URLCONF = 'DjangoSocial.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['./DjangoSocial/templates',],
+        'DIRS': ['./registration/templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
